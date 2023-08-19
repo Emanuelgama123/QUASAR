@@ -1,0 +1,216 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+	
+}
+
+
+
+#Container{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #e9e9eb;
+
+}
+/*logo*/
+#logo{
+	position: absolute;
+	left: 8%;
+	top: 30px;	
+	font-size: 23px;
+	z-index: 997;
+	font-weight: bold;
+	color: #165397;
+}
+/* Barra de navegação*/
+#NavBar {
+	height: 90px;
+	width: 100%;
+	position: absolute;
+	background: #fdfefe;
+	display: grid;
+	place-items: center;
+	font-weight: 550;
+}
+/*Os 5 "li" da nav bar*/ 
+#LI-1 a:hover{
+	color: #165397;
+}
+
+#LI-2 a:hover{
+	color: #165397;
+}
+#LI-4 a:hover{
+	color: #165397;
+}
+#LI-5 a:hover{
+	color: #165397;
+}
+#dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #fbfbfc;
+	min-width: 10em;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 40px 18px 22px 2px;
+	z-index: 1;
+	border-radius: 12px;
+	width: 20em;
+	
+ }
+/* sombra das marcas (dropdanw)*/
+ #dropdown{
+	position: relative;
+	display: inline-block;
+ }
+
+#dropdown:hover #dropdown-content {
+	display: block;
+}
+
+#NavBar ul{
+	list-style: none;
+	display: flex;
+flex-direction: row;
+}
+
+#NavBar ul li{
+font-size: 20px;
+margin: 0 45px;
+}
+
+
+#NavBar ul li a{
+	text-decoration: none;
+	color: #000000;
+	
+}
+
+/* Botão de login*/
+ #login {
+	height: 35px;
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	right: 16%;
+	display: grid;
+	place-items: center;
+	background: #165397;
+	border-radius: 16px 20px;
+	top: 26px;
+	}
+
+	
+	
+	#login:hover{
+		background: #a32929;
+		transition: 0.3s;
+		color: #fdfefe;
+	}
+	#login a:hover{
+	
+		transition: 0.3s;
+		color: #fdfefe;
+	}
+
+#Image{
+	position: absolute;
+	top: calc(50% - 160px);
+	right: 5%;
+	z-index: 999;
+}
+
+#Image img{
+	height: 350px;
+	filter: drop-shadow(-80px -80px 2.5px rgba(0,0,0,0.5));
+	transition: 0.5s;
+}
+
+#Image img:hover{
+	filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+}
+
+#TXTM{
+	position: absolute;
+	top:30%;
+	left: 10%;
+	z-index: 996;
+
+}
+
+#TXTM h2:hover{
+	color: #000;
+
+}
+
+#TXTM h2{
+font-size: 210px;
+color: #165397;
+
+}
+
+#TXTM h4{
+	font-size: 50px;
+	color: #000;
+}
+
+#TXTM h4:hover{
+	color: #165397;
+}
+
+/*Icones*/
+#Icons{
+	height: 380px;
+	width: 55px;
+	position: absolute ;
+	left: 0;
+	top: calc(50% - 150px);
+	background: #1c5da4;
+	border-radius: 0 60px 60px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 998;
+}
+
+#Icons a{
+	text-decoration: none;
+	height: 40px;
+	font-size: 23px;
+	width: 40px;
+	color: #e9e9eb;
+	display: grid;
+	place-items: center;
+	margin: 30px 0;
+}
+
+#Icons:hover{
+	background: #000;
+	transition: 0.4s;
+}
+
+#ICON-1:hover{
+	color: #1b66bb;
+}
+
+
+#ICON-2:hover{
+	color: rgb(223, 76, 112);
+}
+
+#ICON-3:hover{
+ color: red;
+}
+
+#ICON-4:hover{
+	color: rgb(21, 212, 212);
+}

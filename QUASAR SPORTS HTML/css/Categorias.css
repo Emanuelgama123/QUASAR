@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+header{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 1rem;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	position: fixed;
+	transition: all  .35s ease;
+	background-color: #fff;
+	padding: 14px 2%;
+	height: 4rem;
+}
+
+#logo{
+	font-weight: 700;
+	font-size: 2rem;
+	color: #165397;
+	position: absolute;
+	left: 5rem;
+}
+
+#cabeçalho-link{
+	display: flex;
+	gap: 5rem;
+	position: absolute;
+	left: 30rem;
+}
+
+#cabeçalho-link a{
+	color: #111;
+	font-weight: 700;
+	transition: 0.3s;
+	
+}
+
+#cabeçalho-link a:hover{
+	color: #165397;
+}
+
+#icon span{
+	position: absolute;
+	font-size: 2rem;
+	cursor: pointer;
+	top: 1rem;
+	left: 51rem;
+}
+#icon span:hover{
+	color: #165397;
+}
+
+
+
+#section{
+	padding-top: 3rem;
+}
+
+section h1{
+	align-items: center;
+	text-align: center;
+	font-size: 2rem;
+}
+/*linha entre o nome "NOVAS CATEGORIAS"*/
+#NVCT{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+#NVCT:before, #NVCT::after{
+	content: "";
+	height: 2px;
+	background-color: #000;
+	display: block;
+}
+
+
+
+
+
+
+
+#container-EST-NOVOS{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	padding-top: 3rem;
+	
+}
+
+#container-EST-NOVOS img{
+	background: #e9e9eb;
+	width: 55vh;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	border-radius: 6px;
+	
+}
+
+
+#container-EST-NOVOS img:hover{
+	transform: scale(0.9) translateY(5px);
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#EST-NOVOS{
+	padding-top: 4rem;
+}
+
+/*linha entre o nome "ESTOQUES NOVOS"*/
+#HR-EST_NV{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+#HR-EST_NV:before, #HR-EST_NV::after{
+	content: "";
+	height: 4px;
+	background-color: #000;
+	display: block;
+}
+
+
+#Acessorios p {
+background-color: gray;
+
+
+	}
+	
+	#bac1, #bac2, #bac3{
+		background-color: gray;
+		text-align: center;
+		border-radius: 1rem;
+		
+	}
+ 
+	#Acessorios span {
+		color: white;
+		font-size: 1.2rem ;
+	}
+	
+	#Contato{
+		display: flex;
+		gap: 5rem;
+		background-color: #111;
+		padding: 8rem;
+		margin-top: 5rem;
+		display:grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+		
+	}
+
+	.Meio-contato h3{
+		color: #fff;
+		font-size: 23px;
+		margin-bottom: 1.6rem;
+	}
+
+	.Meio-contato h5{
+	color: #555;
+	font-size: 15px;
+	font-weight: 600;
+
+	}
+
+	.Meio-contato p{
+		display: block;
+		color: #555;
+		font-weight: 600;
+		transition: 0.35s ease;
+	}
+
+	/* barra de pesquisa*/
+	.barapesquisa{
+		position: absolute;
+		transform: translate(-50%, -50%);
+		background: #353b48;
+		height: 50px;
+		border-radius: 50px;
+		top: 50%;
+		left: 65rem;
+	}
+	 .search-outline{
+		color: #2267b6;
+		float: right;
+		width: 55px;
+		height: 50px;
+		border-radius: 50px;
+		background: #353b48;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 2s;
+		top: 50px;
+		
+	 }
+
+	 .search-txt{
+		border: none;
+		background: none;
+		outline: none;
+		float: right;
+		padding: 0;
+		color: white;
+		font-size: 16px;
+		transition: 0.4s;
+		line-height: 50px;
+		width: 0
+		
+	 }
+
+	 .barapesquisa:hover > .search-txt{
+		width: 190px;
+		padding: 0 6px;
+	 }
+
+	 .barapesquisa:hover > .search-outline{
+		background-color: #fff;
+	 }
+	 #dropdown-content{
+		display: none;
+		position: absolute;
+		background-color: #fbfbfc;
+		min-width: 10em;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 20px 2px 2px 2px;
+		z-index: 1;
+		border-radius: 12px;
+		width: 10px;
+		font-size: 15px;
+	 }
+/* sombra das marcas (dropdanw)*/
+	 #dropdown{
+		position: relative;
+		display: inline-block;
+	 }
+
+	#dropdown:hover #dropdown-content {
+		display: block;
+	}
+	
+	#Direitos{
+		color: #555;
+	    text-align: center;
+		background-color: #111;
+	}

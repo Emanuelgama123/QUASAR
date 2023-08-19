@@ -1,0 +1,90 @@
+*{
+
+	box-sizing: border-box;
+
+	text-decoration: none;
+	list-style: none;
+}
+
+#icon {
+	position: absolute;
+	font-size: 1.5rem;
+	cursor: pointer;
+	top: 1rem;
+	left: 2rem;
+}
+#icon a{
+    color: black;
+
+}
+
+#icon a:hover{
+	color: #165397;
+}
+.imagens img{
+  border-radius: 40px;
+  width: 60vh;
+  height: 65vh;
+
+}
+.imagens{
+    display:flex;
+}
+.TXT{
+    margin-left: 5vh;
+
+}
+
+
+#TítuloP {
+    text-align: center;
+   
+
+}
+#TítuloP h1 {
+   
+    color: #165397;
+}
+hr{
+    border:solid 1px;
+}
+#TítuloP p{
+ margin: 10px 300px 100px 300px ;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: whitesmoke;
+}
+
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    
+}
+
+.Meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.Meio-contato h5{
+color: #555;
+font-size: 15px;
+font-weight: 600;
+
+}
+
+.Meio-contato p{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
